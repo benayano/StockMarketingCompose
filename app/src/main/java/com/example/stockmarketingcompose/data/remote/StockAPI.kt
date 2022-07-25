@@ -1,6 +1,7 @@
 package com.example.stockmarketingcompose.data.remote
 
 import com.example.stockmarketingcompose.BuildConfig
+import com.example.stockmarketingcompose.data.remote.StockAPI.Companion.API_KEY
 import com.example.stockmarketingcompose.data.remote.dto.CompanyInfoDto
 import okhttp3.ResponseBody
 import retrofit2.http.GET
